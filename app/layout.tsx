@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
 import "./globals.css";
 import Footer from "@/components/HomePage/Footer";
-import ClientWrapper from "@/components/ClientWrapper";
 import Phone from "@/components/Phone/Phone";
 
 const poppins = Poppins({
@@ -26,11 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="!scroll-smooth">
-      <body className={`${poppins.className} antialiased bg-gradient-to-r from-[#E0EAFC] to-[#CFDEF3]`}>
-        <ClientWrapper>
+      <body className={`${poppins.className} antialiased bg-black`}>
           {children}
           <Phone />
-        </ClientWrapper>
         <Footer />
       </body>
     </html>

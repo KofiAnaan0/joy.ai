@@ -11,7 +11,7 @@ import { inputData } from "@/data/inputData";
 const Contact = () => {
 	return (
 		<Section className="mb-0">
-			<Main data-aos="fade-up">
+			<Main data-aos="fade-up" className="bg-[#169976] lg:w-[73%] rounded-md p-6">
 				{/* title */}
 				<H2>Get In Touch</H2>
 

@@ -26,40 +26,25 @@ export const socialLinks: SocialLink[] = [
 export const companyData: FooterProps[] = [
 	{
 		id: 1,
-		label: "Our Products",
-		links: "/product",
+		label: "Book Demo",
+		links: "/#",
 	},
 	{
 		id: 2,
 		label: "About Us",
-		links: "/about",
+		links: "/#",
 	},
 ];
 
 export const productData: FooterProps[] = [
 	{
 		id: 1,
-		label: "Enterprise Service Management",
-		links: "/product#enterprise-management",
+		label: "Fine-tuning As a Service",
+		links: "/#",
 	},
 	{
 		id: 2,
-		label: "Security Information & Events Management",
-		links: "/product#iam",
-	},
-	{
-		id: 3,
-		label: "Unified Endpoint Management & Security",
-		links: "/product#endpoint-management",
-	},
-	{
-		id: 4,
-		label: "IT Operations Management",
-		links: "/product#",
-	},
-	{
-		id: 5,
-		label: "Advanced IT Analytics",
-		links: "/product#analytics",
+		label: "Inbound & Outbound Automation",
+		links: "/#",
 	},
 ];

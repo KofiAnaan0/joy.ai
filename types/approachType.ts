@@ -6,4 +6,5 @@ export interface ApproachType {
 	title: string;
 	description: string;
 	imageUrl: string | StaticImageData;
+	videoUrl?: string
 }
