@@ -57,7 +57,7 @@ const Hero = () => {
           <div className="relative w-full" style={{ paddingBottom: "56.25%" }}>
             <iframe
               className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
-              src="https://youtu.be/WxWMTFTrxsY?si=izUk9ocjj6IKPQEn"
+              src="https://www.youtube.com/embed/WxWMTFTrxsY?si=bU-dQxONBUIgyVan"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
